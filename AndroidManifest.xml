@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.antonfendi.tebakgambartugas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AbangActivity"
+            android:label="@string/title_activity_abang" >
+        </activity>
+        <activity
+            android:name=".ImbasActivity"
+            android:label="@string/title_activity_imbas" >
+        </activity>
+        <activity
+            android:name=".JamActivity"
+            android:label="@string/title_activity_jam" >
+        </activity>
+        <activity
+            android:name=".KatakanActivity"
+            android:label="@string/title_activity_katakan" >
+        </activity>
+        <activity
+            android:name=".SambelActivity"
+            android:label="@string/title_activity_sambel" >
+        </activity>
+        <activity
+            android:name=".SayangActivity"
+            android:label="@string/title_activity_sayang" >
+        </activity>
+        <activity
+            android:name=".SumpahActivity"
+            android:label="@string/title_activity_sumpah" >
+        </activity>
+        <activity
+            android:name=".TukangActivity"
+            android:label="@string/title_activity_tukang" >
+        </activity>
+        <activity
+            android:name=".EndActivity"
+            android:label="@string/title_activity_end" >
+        </activity>
+        <activity
+            android:name=".CintaActivity"
+            android:label="@string/title_activity_cinta" >
+        </activity>
+    </application>
+
+</manifest>
